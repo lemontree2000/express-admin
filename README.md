@@ -2,6 +2,7 @@
 
 > 一个用的node.js express框架mysql数据库 + 前端Materialize-UI 搭建的后台管理系统
 
+![qq 20170915142441](https://user-images.githubusercontent.com/21957062/30469326-36696618-9a22-11e7-9e0d-4919cb583245.jpg)
 ### 技术栈
 
 - Expresss
