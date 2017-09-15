@@ -1,0 +1,42 @@
+extends layout
+block head
+  link(rel="stylesheet", href="stylesheets/main.css")
+block content
+  header
+    nav.teal.lighten-2
+      div.nav-wrapper
+        .container
+          a(href="javascript:;").brand-logo= title
+          ul.right.hide-on-med-and-down#nav-mobile
+            li
+              a(href="javascript:;") Sass
+            li
+              a(href="javascript:;") Sass
+            li
+              a(href="javascript:;").logout 注销
+  ul#slide-out.side-nav.fixed.teal.white
+    li
+      a(href="#") 
+        span.email jdandturk@sina.com
+    li
+      a(href="#") 
+        span.email jdandturk@sina.com
+    li
+      a(href="#") 
+        span.email jdandturk@sina.com
+    li.no-padding
+      ul.collapsible.collapsible-accordion
+        li
+          a(href="#").collapsible-header.waves-effect.waves-teal fdsaf
+          div.collapsible-body
+            ul
+              li 
+                a(href="#") 555
+              li 
+                a(href="#") 555
+              li 
+                a(href="#") 555
+  main fdasf
+
+block script
+  script(src="javascripts/main.js")

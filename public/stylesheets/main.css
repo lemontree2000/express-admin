@@ -1,0 +1,19 @@
+main {
+  padding-left: 300px;
+}
+
+@media only screen and (max-width : 992px) {
+  main {
+    padding-left: 0;
+  }
+}
+#slide-out {
+  top: 64px;
+}
+#slide-out .collapsible-header {
+  padding: 0 32px;
+
+}
+.side-nav .collapsible-body li a, .side-nav.fixed .collapsible-body li a {
+  padding: 0 23.5px 0 45px;
+}

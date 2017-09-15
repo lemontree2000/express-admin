@@ -1,0 +1,29 @@
+extends layout
+block head  
+  link(rel="stylesheet", href="/stylesheets/style.css")
+block content
+  div.container
+    section
+      h5.title  欢迎来到CHECHE管理系统
+      div.content
+        .row
+          form(action="").col.s12
+            .row
+              .col.s12.input-field
+                .material-icons.prefix account_circle
+                input(type="text",autocomplete="off").validate#username
+                label(for="username",data-error="wrong",data-success="right") 用户名
+            .row
+              .col.s12.input-field
+                .material-icons.prefix visibility
+                input(type="password",autocomplete="off").validate#password
+                label(for="username",data-error="wrong",data-success="right") 密码
+            .row
+              .col.s6
+                a.waves-effect.waves-light.btn-large.col.s12#register-btn  注册    
+              .col.s6
+                a.waves-effect.waves-light.btn-large.col.s12#login-btn  登录
+
+block script
+  script(src="/javascripts/login.js")
+    

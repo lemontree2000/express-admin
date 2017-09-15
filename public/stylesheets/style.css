@@ -1,0 +1,31 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  background: url('../images/eberhard-grossgasteiger-348503.jpg') no-repeat 0 0;
+  background-size: cover;
+
+}
+.container {
+  padding-top: 13%;
+}
+.container section .title {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+.container section .content {
+  width: 650px;
+  margin: 0 auto;
+}
+.container section .content input {
+  color: #fff;
+  text-align: center;
+}
+
+
+.container .input-field .prefix {
+  top: 12px;
+}
